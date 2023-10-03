@@ -128,7 +128,7 @@ function Register() {
                   <button
                     type="button"
                     onClick={handleSubmit}
-                    className="col-sm-6 btn btn-outline-secondary center"
+                    className="col-sm-6 btn btn-outline-primary center"
                   >
                     Register Now
                   </button>

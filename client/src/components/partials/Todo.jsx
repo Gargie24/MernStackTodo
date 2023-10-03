@@ -62,8 +62,7 @@ function Todo(props) {
   return (
     <div className="col-sm-4 mx-4 my-3 alert bg-light">
       <div className="card-header">
-        {/* {props?.isCompleted ? "Completed" : "Not Completed"} */}
-      </div>
+       </div>
       <div className="card-body">
         <h4 className="card-title">{props?.desc}</h4>
         <p className="card-text">{moment(props?.date).fromNow()}</p>

@@ -98,7 +98,7 @@ function Login() {
               <button
                 type="button"
                 onClick={handleSubmit}
-                className="btn btn-primary"
+                className="btn btn-primary mt-4"
               >
                 Login
               </button>

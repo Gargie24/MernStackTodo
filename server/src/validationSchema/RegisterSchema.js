@@ -8,7 +8,7 @@ export const RegisterSchema = [
     .trim()
     .isLength({ min: 6, max: 32 }),
 
-  check("password", "password is required")
+  check("password", "password is required and must be atleast 6 character long")
     .exists()
     .isLength({ min: 6, max: 100 })
     .trim(),

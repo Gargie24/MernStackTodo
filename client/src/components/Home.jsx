@@ -52,7 +52,7 @@ function Home() {
           </div>
         ) : (
           <div>
-            <h2>Not Completed Todos</h2>
+            <h2>Pending Todos</h2>
             <div className="row justify-content-md-center mt-4">
               {notCompletedList.map((todo) => (
                 <Todo key={todo._id} {...todo} setRefreshList={setRefreshList} />

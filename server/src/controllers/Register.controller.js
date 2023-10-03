@@ -63,7 +63,7 @@ const Register = async (req, res) => {
     return res.json(
       jsonGenerate(
         StatusCode.VALIDATION_ERROR,
-        "VALIDATION ERROR",
+        "error",
         errors.mapped()
       )
     );

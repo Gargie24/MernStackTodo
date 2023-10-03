@@ -17,17 +17,13 @@ export const updateTodo = async (req, res) => {
   }
 
   try {
-    //const { todo_id, newDesc } = req.body;
-
-    // Update the todo by ID
-
+  
     
     const updatedTodo = await Todo.findOneAndUpdate(
       {
-       // _id: todo_id,
-        // updated code
+       
         _id: req.body.todo_id,
-       // userId: req.userId, // Make sure the user owns the todo
+       
       },
       {
         desc: req.body.desc,
